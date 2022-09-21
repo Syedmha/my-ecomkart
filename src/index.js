@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ProductsDataContextProvider } from './common/context/ProductsDataContext';
+import { FilteredProductsDataProvider } from './common/context/FilteredProductsContext'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ProductsDataContextProvider>
+      <FilteredProductsDataProvider>
+        <App />
+      </FilteredProductsDataProvider>
+    </ProductsDataContextProvider>
   </React.StrictMode>
 );
 

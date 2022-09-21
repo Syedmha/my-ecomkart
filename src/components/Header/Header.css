@@ -1,0 +1,24 @@
+.header-container {
+    background-color: #0C73EB;
+    display: flex;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 10rem;
+    color: white;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.header-searchBar {
+    flex-grow: 0.5;
+    text-align: center;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem;
+}
