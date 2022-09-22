@@ -1,9 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import FilterBar from '../FilterBar/FilterBar'
 import '../MainContent/MainContent.css'
 import ProductList from '../ProductList/ProductLIst'
+import SingleProduct from '../SingleProduct/SingleProduct';
 
 function MainContent() {
+
     return (
         <>
             <div className='main-container'>
@@ -14,7 +16,6 @@ function MainContent() {
                     <ProductList />
                 </div>
             </div>
-
         </>
     )
 }
