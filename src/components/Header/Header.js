@@ -11,10 +11,10 @@ function Header() {
                 <input className='search-input'></input>
             </div>
             <div className='header-navItem1'>
-                searchbar
+                Become a Seller
             </div>
             <div className='header-navItem2'>
-                searchbar
+                Cart
             </div>
         </header>)
 }
